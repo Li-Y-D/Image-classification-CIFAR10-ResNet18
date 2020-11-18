@@ -48,4 +48,4 @@
 
 测试集数据经已训练好的网络模型所得到的预测标签与真实标签的对比：
 
-![images3]()
+![images3](https://github.com/Li-Y-D/images/blob/main/images/%E6%88%AA%E5%9B%BE2.png)
