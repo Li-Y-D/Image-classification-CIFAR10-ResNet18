@@ -43,5 +43,8 @@
 ![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE1.png)
 
 
+![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE2.png)
+
+
 
 ![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE.png)
