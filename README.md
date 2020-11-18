@@ -37,6 +37,8 @@
 源代码及模型的描述均以注释形式展示
 
 ## 四.实验结果：
+![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202020-11-18%20093746.jpg)
+
 
 
 ![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE.png)
