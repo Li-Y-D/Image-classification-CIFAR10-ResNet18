@@ -2,7 +2,9 @@
 
 ## Auther: Yuandong Li
 ## Date: 2020/11/17
-## Description: The images in the CIFAR10 data set are classified using the ResNet18 residual network with 90% accuracy.
+## Description: The images in the CIFAR10 data set are classified using the ResNet18 residual network with 90% accuracy. 
+
+# 欢迎关注我的CSDN博客—————夏风喃喃
 
 ## 一.实验要求：
 仿照示例，使用jupyter notebook+pytorch完成一个网络的训练。 要求：
@@ -36,6 +38,5 @@
 
 ## 四.实验结果：
 
-![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE.png)
 
-# 欢迎关注我的CSDN博客—————夏风喃喃
+![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE.png)
