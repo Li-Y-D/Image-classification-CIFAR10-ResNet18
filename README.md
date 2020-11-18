@@ -36,6 +36,6 @@
 
 ## 四.实验结果：
 
-![训练结果](‪C:\Users\lenovo\Desktop\屏幕截图 2020-11-18 093746.jpg)
+![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE.png)
 
 # 欢迎关注我的CSDN博客—————夏风喃喃
