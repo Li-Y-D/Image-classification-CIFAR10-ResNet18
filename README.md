@@ -40,7 +40,7 @@
 
 适用于CIFAR10的ResNet18网络模型结构：
 
-![images1]()
+![images1](https://github.com/Li-Y-D/images/blob/main/images/%E6%88%AA%E5%9B%BE1.png)
 
 训练过程，展示训练集和测试集精确度以及训练用时：
 
