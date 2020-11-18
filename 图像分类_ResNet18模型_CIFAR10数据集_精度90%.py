@@ -43,6 +43,14 @@
 # 
 # 源代码及模型的描述均以注释形式展示如下。
 
+
+
+
+
+
+
+
+
 # # 1.导入相关模块
 import os
 import time
@@ -54,7 +62,6 @@ import torch.backends.cudnn as cudnn
 import torchvision
 import torchvision.transforms as transforms
 import matplotlib.pyplot as plt
-
 
 import sys
 sys.path.append("D:\课程与教材\基于FPGA硬件加速的深度学习系统设计\Dive-into-DL-PyTorch-master\code")
@@ -73,6 +80,10 @@ print(device)
 # torchvision版本0.8.1    
 # 
 # 运算设备cuda
+
+
+
+
 
 
 
@@ -138,6 +149,13 @@ def show_cifar10(images, labels):
     plt.show()                                              #绘图
 
 
+    
+    
+    
+    
+    
+    
+    
 # # 3.定义ResNet18模型
 
 # 本实验为了达到精度0.9的要求，尝试使用过LeNet，VGG-16作为网络模型，但测试集精度最优分别只达到了0.68与0.85。
@@ -147,7 +165,6 @@ def show_cifar10(images, labels):
 # 对于更加复杂先进的网络结构，可以得到更高的测试集精度，但由于硬件显卡性能瓶颈，需要非常长的训练时间甚至会显存不够而报错，所以没有进一步实验。
 # 
 # 由于原始的ResNet是基于ImageNet的图像尺寸而定义的，为了适应CIFAR10数据集，我做了一些改动。
-
 
 
 #定义带两个卷积路径和一条捷径的残差基本块类
@@ -269,6 +286,10 @@ print(net)
 
 
 
+
+
+
+
 # # 4.训练模型准备
 
 #定义一个训练批量的样本数
@@ -349,6 +370,12 @@ def train(net, train_iter, test_iter, batch_size, optimizer, device, num_epochs)
 
 
         
+        
+        
+        
+        
+        
+        
 # # 5.训练模型
 
 #设置学习率lr，训练回合数num_epochs
@@ -367,6 +394,11 @@ train(net, train_iter, test_iter, batch_size, optimizer, device, num_epochs)
 
 #保存网络模型的参数至mymodel.pth文件
 torch.save(net.state_dict(),'mymodel.pth')
+
+
+
+
+
 
 
 
@@ -404,6 +436,11 @@ print('Predicted: ', ' '.join('%5s' % get_CIFAR10_labels([predicted[j].cpu().num
 
 
 # 可以看到，对测试集中的六幅图片，通过训练好的模型预测所得的标签与真实的标签完全一致，实现了图像分类的目的，实验完成。
+
+
+
+
+
 
 
 
