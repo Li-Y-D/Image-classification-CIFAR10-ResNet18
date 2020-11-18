@@ -37,14 +37,15 @@
 源代码及模型的描述均以注释形式展示
 
 ## 四.实验结果：
-![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202020-11-18%20093746.jpg)
 
+适用于CIFAR10的ResNet18网络模型结构：
 
 ![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE1.png)
 
+训练过程，展示训练集和测试集精确度以及训练用时：
+
+![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202020-11-18%20093746.jpg)
+
+测试集数据经已训练好的网络模型所得到的预测标签与真实标签的对比：
 
 ![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE2.png)
-
-
-
-![images1](https://github.com/Li-Y-D/Image-classification-CIFAR10-ResNet18/blob/main/images/%E6%88%AA%E5%9B%BE.png)
